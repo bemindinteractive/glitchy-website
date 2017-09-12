@@ -1,6 +1,10 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+  background: #161C2D;
+  color: #ffffff;
+  font-family: 'Apercu-Mono';
+  font-weight: normal;
+  font-style: normal; }
 
 a {
   color: #00B7FF; }
