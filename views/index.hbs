@@ -1,2 +1,50 @@
-<h1>{{title}}</h1>
-<p>Scarica {{title}}</p>
+<div class="container-fluid">
+	<div class="row">
+		<h1 class="centered col-12 title">{{hashtag}}</h1>
+	</div>
+	<div class="row">
+		<!-- Image -->
+		<div class="col-12 main_image_box">
+			<img src="{{img_smartphone}}" class="main_image centered" >	
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-12">
+			<div class="centered store_panel">
+				<div class="row">
+					<a href="{{link_playstore}}" class="col-12 social_link img-responsive">
+						<img src="{{image_playstore}}" class="image_store">
+					</a>	
+				</div>
+				<div class="row">
+					<a href="{{link_appstore}}" class="col-12 social_link img-responsive">
+						<img src="{{image_appstore}}" class="image_store" id="link_appstore">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- <div class="row span"/> -->
+	<div class="row">
+		<!-- social fb page-->
+		<a href="{{fb_page_link}}" class="centered social_link">{{fb_page_label}}</a>
+	</div>
+	<div class="row">
+		<!-- social instagram-->
+		<a href="{{ig_page_link}}" class="centered social_link">{{ig_page_label}}</a>
+	</div>
+	<div class="row">
+		<!-- social fb group-->
+		<a href="{{fb_group_link}}" class="centered social_link">{{fb_group_label}}</a>
+	</div>
+	<div class="row  bemind_logo_panel ">
+		<!-- bemind -->
+		<a href="{{bemind_link}}" class="centered">
+			<img src="{{bemind_logo}}" class="bemind_logo">
+		</a>
+	</div>
+
+	
+
+</div>
+

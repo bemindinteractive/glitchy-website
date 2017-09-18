@@ -7,6 +7,58 @@ body {
   font-style: normal; }
 
 a {
-  color: #00B7FF; }
+  color: #fff; }
+
+a:visited {
+  color: #fff; }
+
+a:hover {
+  color: #eb4060; }
+
+.centered {
+  text-align: center;
+  margin: 0 auto;
+  display: block; }
+
+.title {
+  font-size: 3rem;
+  margin-top: 70px; }
+
+.image_store {
+  width: 120px;
+  margin: 0 auto;
+  display: block; }
+
+.main_image {
+  height: 400px; }
+
+.main_image_box {
+  margin-top: 70px;
+  margin-bottom: 70px; }
+
+.store_panel {
+  width: 500px;
+  margin-top: 10px;
+  margin-bottom: 70px; }
+
+.social_link {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1rem; }
+
+.social_link:hover {
+  font-size: 1.2rem; }
+
+.span {
+  margin-top: 30px; }
+
+.bemind_logo_panel {
+  margin-top: 70px; }
+
+.bemind_logo {
+  width: 200px; }
+
+#link_appstore {
+  margin-top: 8px; }
 
 /*# sourceMappingURL=style.css.map */
